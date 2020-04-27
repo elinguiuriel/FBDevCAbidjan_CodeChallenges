@@ -47,7 +47,7 @@ def get_adjacent_cells(mat, point):
         list -- a list of tuples [(x1, y1), (x2, y2), ...]
     """
     adjacents = []
-    offsets = (0, 1, -1)
+    offsets = (-1, 0, 1)
     for i in offsets:
         for j in offsets:
             if i == 0 and j == 0:
